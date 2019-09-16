@@ -26,7 +26,7 @@ arp -e
 #### Applications & services
 
 ps aux
-pa aux | grep root
+ps aux | grep root
   dpkg -l
   rpm -qa
 ls -ls /etc/ | grep .conf
