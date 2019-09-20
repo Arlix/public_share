@@ -1,0 +1,15 @@
+Show available shares
+
+$ smbclient -L IP
+
+Enumerating open shares
+$ nmap -p 445 -A 192.168.1.101
+$ nmap --script smb-vuln* -p 445 192.168.1.101
+
+Connect to a share
+
+$ smbclient //IP/sharename
+
+Useful commands once connected
+$ get filename.txt
+$ put filename.txt
